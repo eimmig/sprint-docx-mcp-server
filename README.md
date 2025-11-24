@@ -497,8 +497,8 @@ UTFPR TCC Project
 
 ## Support
 
-- Issues: https://github.com/yourusername/sprint-docx-mcp-server/issues
-- Documentation: https://github.com/yourusername/sprint-docx-mcp-server#readme
+- Issues: https://github.com/eimmig/sprint-docx-mcp-server/issues
+- Documentation: https://github.com/eimmig/sprint-docx-mcp-server#readme
 
 ## Changelog
 
