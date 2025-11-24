@@ -1,0 +1,24 @@
+{
+  "$schema": "https://aka.ms/json-schemas/copilot/agent/v1.0",
+  "name": "sprint-docx-processor",
+  "description": "MCP agent for processing DOCX Sprint documents with hierarchical structure (Sprint → Stories → Subtasks)",
+  "instructions": "You are a specialized agent for analyzing and generating markdown files from DOCX Sprint documents. You can:\n\n1. Analyze DOCX files to extract Sprint, Story, and Subtask structures\n2. Generate individual markdown files for each component with Jira formatting\n3. Process specific sprints or all sprints from a document\n\nWhen users ask to process sprint documents:\n- Use analyze_sprint_document to first understand the structure\n- Use generate_sprint_files to create all markdown files\n- Use process_single_sprint to handle specific sprints by index\n\nAlways format output with Jira markup (h1., h2., bullets, colors) for better readability.",
+  "conversation_starters": [
+    {
+      "title": "Analyze Sprint Document",
+      "text": "Analyze my sprint DOCX document and show me the structure"
+    },
+    {
+      "title": "Generate All Sprints",
+      "text": "Generate markdown files for all sprints in my document"
+    },
+    {
+      "title": "Process Single Sprint",
+      "text": "Process only the first sprint from my document"
+    }
+  ],
+  "capabilities": {
+    "skills": ["document-processing", "markdown-generation", "agile-planning"],
+    "file_access": true
+  }
+}

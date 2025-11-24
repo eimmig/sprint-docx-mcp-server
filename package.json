@@ -1,0 +1,48 @@
+{
+  "name": "sprint-docx-mcp-server",
+  "version": "1.0.0",
+  "description": "GitHub Copilot agent for processing DOCX Sprint documents with hierarchical structure into Jira-formatted markdown files",
+  "type": "module",
+  "bin": {
+    "sprint-docx-mcp-server": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "github-copilot",
+    "copilot-agent",
+    "sprint",
+    "docx",
+    "agile",
+    "jira",
+    "markdown",
+    "document-processing"
+  ],
+  "author": "UTFPR TCC Project",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eimmig/sprint-docx-mcp-server.git"
+  },
+  "homepage": "https://github.com/eimmig/sprint-docx-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/eimmig/sprint-docx-mcp-server/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "mammoth": "^1.8.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  },
+  "files": [
+    "build"
+  ]
+}

@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Output files (if you want to exclude generated files)
+output/
+
+# Input documents (if sensitive)
+*.docx
+input.docx
